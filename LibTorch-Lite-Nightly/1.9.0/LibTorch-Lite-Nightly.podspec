@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '12.0'
     s.default_subspec = 'Core'
     s.subspec 'Core' do |ss|
-        ss.dependency 'LibTorch-Lite/Torch'
+        ss.dependency 'LibTorch-Lite-Nightly/Torch'
         ss.source_files = 'src/*.{h,cpp,c,cc}'
         ss.public_header_files = ['src/LibTorch-Lite.h']
     end
