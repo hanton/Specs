@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
     s.authors          = 'PyTorch Team'
     s.license          = { :type => 'BSD' }
     s.homepage         = 'https://github.com/pytorch/pytorch'
-    s.source           = { :http => "https://dl.dropboxusercontent.com/s/47o2mc16qxfolro/libtorch_ios_nightly_build.zip" }
+    s.source           = { :http => "https://dl.dropboxusercontent.com/s/a7ugx0088r31ht8/libtorch_ios_nightly_build.zip" }
     s.summary          = 'The PyTorch C++ library for iOS'
     s.description      = <<-DESC
         The PyTorch C++ library for iOS.
