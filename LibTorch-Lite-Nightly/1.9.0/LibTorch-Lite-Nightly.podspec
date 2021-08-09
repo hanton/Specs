@@ -25,7 +25,6 @@ Pod::Spec.new do |s|
     s.user_target_xcconfig = {
         'HEADER_SEARCH_PATHS' => '$(inherited) "$(PODS_ROOT)/LibTorch-Lite-Nightly/install/include/"',
         'OTHER_LDFLAGS' => '-force_load "$(PODS_ROOT)/LibTorch-Lite-Nightly/install/lib/libtorch.a" -force_load "$(PODS_ROOT)/LibTorch-Lite-Nightly/install/lib/libtorch_cpu.a"',
-        'CLANG_CXX_LANGUAGE_STANDARD' => 'c++14',
     }
     s.pod_target_xcconfig = {
         'HEADER_SEARCH_PATHS' => '$(inherited) "$(PODS_ROOT)/LibTorch-Lite-Nightly/install/include/"',
